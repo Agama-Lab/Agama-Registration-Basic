@@ -42,8 +42,8 @@
 			"id": "assignmentNode-e5063e4b-46e4-4ab1-b652-0a04cc5d08e0",
 			"type": "assignmentNode",
 			"position": {
-				"x": -513.1845479895527,
-				"y": -465.9030205558339
+				"x": -508.0792329142369,
+				"y": -464.626691787005
 			},
 			"data": {
 				"id": "assignmentNode-e5063e4b-46e4-4ab1-b652-0a04cc5d08e0",
@@ -81,8 +81,8 @@
 			"id": "repeatNode-7dbc859e-aec9-4e21-a558-6c5d9afcc54f",
 			"type": "repeatNode",
 			"position": {
-				"x": -305.30339736090815,
-				"y": -468.93430138180264
+				"x": -292.54010967261866,
+				"y": -463.8289863064868
 			},
 			"data": {
 				"id": "repeatNode-7dbc859e-aec9-4e21-a558-6c5d9afcc54f",
@@ -191,8 +191,8 @@
 			"id": "assignmentNode-1978c37a-f076-4573-8956-595c007a2429",
 			"type": "assignmentNode",
 			"position": {
-				"x": 317.0637257561965,
-				"y": -254.67150690901337
+				"x": 288.98449284195954,
+				"y": -255.94783567784233
 			},
 			"data": {
 				"id": "assignmentNode-1978c37a-f076-4573-8956-595c007a2429",
@@ -227,6 +227,47 @@
 					"displayName": "",
 					"hasComment": true,
 					"comment": "Assign userName, email and password  to a variable"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 123
+			},
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "callNode-cbae8c45-a81e-4365-b689-ca2fb0c92338",
+			"type": "callNode",
+			"position": {
+				"x": 538.9844928419595,
+				"y": -255.94783567784233
+			},
+			"data": {
+				"id": "callNode-cbae8c45-a81e-4365-b689-ca2fb0c92338",
+				"type": "callNode",
+				"position": {
+					"x": 538.9844928419595,
+					"y": -255.94783567784233
+				},
+				"previousNodeId": "assignmentNode-1978c37a-f076-4573-8956-595c007a2429",
+				"agamaData": {
+					"javaClassName": "",
+					"javaMethodName": "usernamePolicyMatch",
+					"javaVariableName": "userRegistrationService",
+					"exceptionVariableField": "",
+					"callType": "Call method on instance",
+					"arguments": [
+						"userName"
+					],
+					"nodeIcon": "material-symbols:code",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "Check user name policy",
+					"asssignedVariableName": "isUsernamePolicyMatch"
 				}
 			},
 			"measured": {
@@ -331,10 +372,29 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_callNode-886a16ce-2d04-4431-8686-626f77cc8494"
+		},
+		{
+			"id": "assignmentNode-1978c37a-f076-4573-8956-595c007a2429-callNode-cbae8c45-a81e-4365-b689-ca2fb0c92338",
+			"type": "default",
+			"source": "assignmentNode-1978c37a-f076-4573-8956-595c007a2429",
+			"target": "callNode-cbae8c45-a81e-4365-b689-ca2fb0c92338",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_assignmentNode-1978c37a-f076-4573-8956-595c007a2429"
 		}
 	],
 	"viewport": {
-		"x": 688.4214873012884,
+		"x": 690.4214873012884,
 		"y": 441.7579410204195,
 		"zoom": 0.7834971869493407
 	}
