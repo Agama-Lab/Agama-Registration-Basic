@@ -708,8 +708,8 @@
 			"id": "logNode-b500f80a-e453-4899-ada0-3409c09f6a6e",
 			"type": "logNode",
 			"position": {
-				"x": 2073.9195049167965,
-				"y": 604.8220812894837
+				"x": 2079.0248199921125,
+				"y": 586.9534785258783
 			},
 			"data": {
 				"id": "logNode-b500f80a-e453-4899-ada0-3409c09f6a6e",
@@ -736,8 +736,42 @@
 				"width": 170,
 				"height": 122
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
+		},
+		{
+			"id": "rrfNode-72981a56-6439-4d75-b45e-309daaabd424",
+			"type": "rrfNode",
+			"position": {
+				"x": 2329.0248199921125,
+				"y": 586.9534785258783
+			},
+			"data": {
+				"id": "rrfNode-72981a56-6439-4d75-b45e-309daaabd424",
+				"type": "rrfNode",
+				"position": {
+					"x": 2329.0248199921125,
+					"y": 586.9534785258783
+				},
+				"previousNodeId": "logNode-b500f80a-e453-4899-ada0-3409c09f6a6e",
+				"agamaData": {
+					"assignments": [],
+					"nodeIcon": "ph:globe-simple",
+					"templatePath": "acknowledgement.ftlh",
+					"asssignedVariableName": "acknowledgementInput",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "Show acknowledgement UI page for successful registration"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 122
+			},
+			"selected": true
 		}
 	],
 	"edges": [
@@ -1063,6 +1097,25 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_whenNode-bf097f75-456c-418c-b671-8b4f2ab9721c_success"
+		},
+		{
+			"id": "logNode-b500f80a-e453-4899-ada0-3409c09f6a6e-rrfNode-72981a56-6439-4d75-b45e-309daaabd424",
+			"type": "default",
+			"source": "logNode-b500f80a-e453-4899-ada0-3409c09f6a6e",
+			"target": "rrfNode-72981a56-6439-4d75-b45e-309daaabd424",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_logNode-b500f80a-e453-4899-ada0-3409c09f6a6e"
 		}
 	],
 	"viewport": {
