@@ -192,7 +192,7 @@
 			"type": "assignmentNode",
 			"position": {
 				"x": 288.98449284195954,
-				"y": -255.94783567784233
+				"y": -257.2241644466713
 			},
 			"data": {
 				"id": "assignmentNode-1978c37a-f076-4573-8956-595c007a2429",
@@ -240,8 +240,8 @@
 			"id": "callNode-cbae8c45-a81e-4365-b689-ca2fb0c92338",
 			"type": "callNode",
 			"position": {
-				"x": 538.9844928419595,
-				"y": -255.94783567784233
+				"x": 532.6028489978148,
+				"y": -259.77682198432916
 			},
 			"data": {
 				"id": "callNode-cbae8c45-a81e-4365-b689-ca2fb0c92338",
@@ -274,7 +274,8 @@
 				"width": 170,
 				"height": 123
 			},
-			"selected": true
+			"selected": true,
+			"dragging": false
 		}
 	],
 	"edges": [
