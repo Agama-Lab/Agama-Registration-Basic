@@ -46,3 +46,6 @@ Repeat 6 times max
                                    Finish userName
                               // Registration failed log
                               Log "@info User registration failed. Error : %" E
+                         Otherwise
+                              // User already registered with UID
+                              Log "@info User already registered with uid: %" userName
