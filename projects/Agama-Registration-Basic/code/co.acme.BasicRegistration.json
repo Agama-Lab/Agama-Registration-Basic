@@ -82,7 +82,7 @@
 			"type": "repeatNode",
 			"position": {
 				"x": -369.11983580235585,
-				"y": -461.2763287688289
+				"y": -465.2763287688289
 			},
 			"data": {
 				"id": "repeatNode-7dbc859e-aec9-4e21-a558-6c5d9afcc54f",
@@ -108,7 +108,7 @@
 				"width": 170,
 				"height": 122
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false
 		},
 		{
@@ -1183,7 +1183,7 @@
 			"type": "logNode",
 			"position": {
 				"x": -119.11983580235585,
-				"y": -461.2763287688289
+				"y": -467.2763287688289
 			},
 			"data": {
 				"id": "logNode-49b9dd81-455e-4d63-af2f-986974e728fa",
@@ -1210,7 +1210,43 @@
 				"width": 170,
 				"height": 122
 			},
-			"selected": true
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "finishNode-020d089b-90e6-4329-83c8-6715d61b6126",
+			"type": "finishNode",
+			"position": {
+				"x": 120.88016419764415,
+				"y": -465.2763287688289
+			},
+			"data": {
+				"id": "finishNode-020d089b-90e6-4329-83c8-6715d61b6126",
+				"type": "finishNode",
+				"position": {
+					"x": 130.88016419764415,
+					"y": -461.2763287688289
+				},
+				"previousNodeId": "logNode-49b9dd81-455e-4d63-af2f-986974e728fa",
+				"agamaData": {
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "User Registration flow failed",
+					"flowfilename": "",
+					"returnVariable": "{success:false, error: \"User registration flow reached max attempts try later\"}",
+					"finishMode": "withFailure",
+					"nodeIcon": "material-symbols:line-end-square-rounded"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 122
+			},
+			"selected": false,
+			"dragging": false
 		}
 	],
 	"edges": [
@@ -1783,11 +1819,30 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_repeatNode-7dbc859e-aec9-4e21-a558-6c5d9afcc54f_continue"
+		},
+		{
+			"id": "logNode-49b9dd81-455e-4d63-af2f-986974e728fa-finishNode-020d089b-90e6-4329-83c8-6715d61b6126",
+			"type": "default",
+			"source": "logNode-49b9dd81-455e-4d63-af2f-986974e728fa",
+			"target": "finishNode-020d089b-90e6-4329-83c8-6715d61b6126",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_logNode-49b9dd81-455e-4d63-af2f-986974e728fa"
 		}
 	],
 	"viewport": {
-		"x": 430.4034751474842,
-		"y": 371.8704369469837,
+		"x": 328.4034751474842,
+		"y": 317.8704369469837,
 		"zoom": 0.5
 	}
 }
