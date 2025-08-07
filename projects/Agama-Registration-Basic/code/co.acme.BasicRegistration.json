@@ -315,7 +315,7 @@
 			},
 			"measured": {
 				"width": 110,
-				"height": 59
+				"height": 60
 			},
 			"selected": false,
 			"dragging": false
@@ -400,7 +400,7 @@
 			},
 			"measured": {
 				"width": 110,
-				"height": 59
+				"height": 60
 			},
 			"selected": false,
 			"dragging": false
@@ -444,7 +444,7 @@
 			},
 			"measured": {
 				"width": 110,
-				"height": 59
+				"height": 60
 			},
 			"selected": false,
 			"dragging": false
@@ -529,7 +529,7 @@
 			},
 			"measured": {
 				"width": 110,
-				"height": 59
+				"height": 60
 			},
 			"selected": false,
 			"dragging": false
@@ -614,7 +614,7 @@
 			},
 			"measured": {
 				"width": 110,
-				"height": 59
+				"height": 60
 			},
 			"selected": false,
 			"dragging": false
@@ -699,7 +699,7 @@
 			},
 			"measured": {
 				"width": 110,
-				"height": 59
+				"height": 60
 			},
 			"selected": false,
 			"dragging": false
@@ -743,7 +743,7 @@
 			"id": "rrfNode-72981a56-6439-4d75-b45e-309daaabd424",
 			"type": "rrfNode",
 			"position": {
-				"x": 2329.0248199921125,
+				"x": 2299.6692583090467,
 				"y": 586.9534785258783
 			},
 			"data": {
@@ -765,6 +765,40 @@
 					"displayName": "",
 					"hasComment": true,
 					"comment": "Show acknowledgement UI page for successful registration"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 122
+			},
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "logNode-add8a620-7052-4306-8b2b-dbe5964dcb4e",
+			"type": "logNode",
+			"position": {
+				"x": 2549.6692583090467,
+				"y": 586.9534785258783
+			},
+			"data": {
+				"id": "logNode-add8a620-7052-4306-8b2b-dbe5964dcb4e",
+				"type": "logNode",
+				"position": {
+					"x": 2549.6692583090467,
+					"y": 586.9534785258783
+				},
+				"previousNodeId": "rrfNode-72981a56-6439-4d75-b45e-309daaabd424",
+				"agamaData": {
+					"logMessage": "\"Finish the flow successfully\"",
+					"logLevel": "info",
+					"nodeIcon": "octicon:log-16",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "Finish the flow successfully"
 				}
 			},
 			"measured": {
@@ -1116,11 +1150,30 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_logNode-b500f80a-e453-4899-ada0-3409c09f6a6e"
+		},
+		{
+			"id": "rrfNode-72981a56-6439-4d75-b45e-309daaabd424-logNode-add8a620-7052-4306-8b2b-dbe5964dcb4e",
+			"type": "default",
+			"source": "rrfNode-72981a56-6439-4d75-b45e-309daaabd424",
+			"target": "logNode-add8a620-7052-4306-8b2b-dbe5964dcb4e",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_rrfNode-72981a56-6439-4d75-b45e-309daaabd424"
 		}
 	],
 	"viewport": {
-		"x": -989.5785126987114,
-		"y": -275.94205592782276,
+		"x": -1132.795145957831,
+		"y": -296.7254226687031,
 		"zoom": 0.7834971869493407
 	}
 }
