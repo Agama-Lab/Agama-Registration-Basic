@@ -533,6 +533,48 @@
 			},
 			"selected": false,
 			"dragging": false
+		},
+		{
+			"id": "callNode-2f2ce8df-1939-4a7e-b18e-531b49d98c27",
+			"type": "callNode",
+			"position": {
+				"x": 1509.1476150874694,
+				"y": 328.771889829327
+			},
+			"data": {
+				"id": "callNode-2f2ce8df-1939-4a7e-b18e-531b49d98c27",
+				"type": "callNode",
+				"position": {
+					"x": 1612.5302453626146,
+					"y": 398.9699721149194
+				},
+				"previousNodeId": "whenNode-bfb439dd-be1c-4126-b08e-92be6d221037",
+				"branching": "success",
+				"agamaData": {
+					"javaClassName": "",
+					"javaMethodName": "getUserEntityByUsername",
+					"javaVariableName": "userRegistrationService",
+					"exceptionVariableField": "",
+					"callType": "Call method on instance",
+					"arguments": [
+						"userName"
+					],
+					"nodeIcon": "material-symbols:code",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "Check user already exist or not with username",
+					"asssignedVariableName": "userWithUid"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 122
+			},
+			"selected": true,
+			"dragging": false
 		}
 	],
 	"edges": [
@@ -763,11 +805,30 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_callNode-7764960c-c2c8-48c9-bb27-0eb98a1736ea"
+		},
+		{
+			"id": "whenNode-bfb439dd-be1c-4126-b08e-92be6d221037-callNode-2f2ce8df-1939-4a7e-b18e-531b49d98c27",
+			"type": "default",
+			"source": "whenNode-bfb439dd-be1c-4126-b08e-92be6d221037",
+			"target": "callNode-2f2ce8df-1939-4a7e-b18e-531b49d98c27",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "Condition met",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_whenNode-bfb439dd-be1c-4126-b08e-92be6d221037_success"
 		}
 	],
 	"viewport": {
-		"x": -322.5785126987116,
-		"y": 248.0579440721773,
+		"x": -471.57851269871173,
+		"y": 170.0579440721773,
 		"zoom": 0.7834971869493407
 	}
 }
