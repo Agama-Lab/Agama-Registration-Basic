@@ -19,4 +19,4 @@ Repeat 6 times max
      // if username policy match
      When isUsernamePolicyMatch is true
           // Password policy check
-          isPasswordPolicyMatch = Call userRegistrationService passwordPolicyMatch 
+          isPasswordPolicyMatch = Call userRegistrationService passwordPolicyMatch userPassword
