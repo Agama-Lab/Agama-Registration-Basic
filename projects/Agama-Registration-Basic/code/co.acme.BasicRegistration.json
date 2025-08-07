@@ -32,8 +32,8 @@
 				}
 			},
 			"measured": {
-				"width": 168,
-				"height": 120
+				"width": 170,
+				"height": 122
 			},
 			"selected": false,
 			"dragging": false
@@ -72,7 +72,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 122
 			},
 			"selected": false,
 			"dragging": false
@@ -106,7 +106,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 122
 			},
 			"selected": false,
 			"dragging": false
@@ -143,7 +143,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 122
 			},
 			"selected": false,
 			"dragging": false
@@ -182,7 +182,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 122
 			},
 			"selected": false,
 			"dragging": false
@@ -231,7 +231,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 122
 			},
 			"selected": false,
 			"dragging": false
@@ -272,10 +272,52 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 122
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
+		},
+		{
+			"id": "whenNode-8adc66cf-362e-4a9a-a5ac-9fdb3b1d3703",
+			"type": "whenNode",
+			"position": {
+				"x": 652.4173145772615,
+				"y": -199.22416444667124
+			},
+			"data": {
+				"id": "whenNode-8adc66cf-362e-4a9a-a5ac-9fdb3b1d3703",
+				"type": "whenNode",
+				"position": {
+					"x": 652.4173145772615,
+					"y": -199.22416444667124
+				},
+				"previousNodeId": "callNode-cbae8c45-a81e-4365-b689-ca2fb0c92338",
+				"agamaData": {
+					"variableField": "",
+					"valueField": "",
+					"conditionInputField": "",
+					"conditions": [
+						{
+							"variable": "isUsernamePolicyMatch",
+							"operator": "is",
+							"dataValue": "true",
+							"combinator": "none"
+						}
+					],
+					"nodeIcon": "ph:swap",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "if username policy match"
+				}
+			},
+			"measured": {
+				"width": 110,
+				"height": 59
+			},
+			"selected": true
 		}
 	],
 	"edges": [
@@ -392,11 +434,30 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_assignmentNode-1978c37a-f076-4573-8956-595c007a2429"
+		},
+		{
+			"id": "callNode-cbae8c45-a81e-4365-b689-ca2fb0c92338-whenNode-8adc66cf-362e-4a9a-a5ac-9fdb3b1d3703",
+			"type": "default",
+			"source": "callNode-cbae8c45-a81e-4365-b689-ca2fb0c92338",
+			"target": "whenNode-8adc66cf-362e-4a9a-a5ac-9fdb3b1d3703",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_callNode-cbae8c45-a81e-4365-b689-ca2fb0c92338"
 		}
 	],
 	"viewport": {
-		"x": 690.4214873012884,
-		"y": 441.7579410204195,
+		"x": 654.4214873012884,
+		"y": 415.7579410204195,
 		"zoom": 0.7834971869493407
 	}
 }
