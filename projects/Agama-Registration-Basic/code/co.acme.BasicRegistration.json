@@ -1022,6 +1022,41 @@
 				"width": 170,
 				"height": 122
 			},
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "logNode-84a4870a-4373-4558-a056-d5293bbe757f",
+			"type": "logNode",
+			"position": {
+				"x": 1235.90306909074,
+				"y": -136.14902971386775
+			},
+			"data": {
+				"id": "logNode-84a4870a-4373-4558-a056-d5293bbe757f",
+				"type": "logNode",
+				"position": {
+					"x": 1291.2162729986678,
+					"y": -194.1604386904748
+				},
+				"previousNodeId": "whenNode-2145ed2f-dbbd-4a65-88e4-a53709dae3ef",
+				"branching": "otherwise",
+				"agamaData": {
+					"logMessage": "\"Password and Confirm password doesn't match\"",
+					"logLevel": "trace",
+					"nodeIcon": "octicon:log-16",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "Password and Confirm password doesn't match"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 122
+			},
 			"selected": true,
 			"dragging": false
 		}
@@ -1501,11 +1536,30 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_logNode-92f3bf32-9e33-4b08-832e-d89742243e29"
+		},
+		{
+			"id": "whenNode-2145ed2f-dbbd-4a65-88e4-a53709dae3ef-logNode-84a4870a-4373-4558-a056-d5293bbe757f",
+			"type": "default",
+			"source": "whenNode-2145ed2f-dbbd-4a65-88e4-a53709dae3ef",
+			"target": "logNode-84a4870a-4373-4558-a056-d5293bbe757f",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "otherwise",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_whenNode-2145ed2f-dbbd-4a65-88e4-a53709dae3ef_otherwise"
 		}
 	],
 	"viewport": {
-		"x": -753.056813910252,
-		"y": 46.267186102852975,
+		"x": -451.056813910252,
+		"y": 164.26718610285297,
 		"zoom": 0.7412335049014176
 	}
 }
