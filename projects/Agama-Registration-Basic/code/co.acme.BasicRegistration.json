@@ -847,8 +847,8 @@
 			"id": "logNode-c1b17700-6f4a-4bce-9f6d-8fd57bbb8dee",
 			"type": "logNode",
 			"position": {
-				"x": 2190.3509421974927,
-				"y": 364.22025723345354
+				"x": 2198.445557403531,
+				"y": 437.0717940877973
 			},
 			"data": {
 				"id": "logNode-c1b17700-6f4a-4bce-9f6d-8fd57bbb8dee",
@@ -869,6 +869,41 @@
 					"displayName": "",
 					"hasComment": true,
 					"comment": "Registration failed log"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 122
+			},
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "logNode-6b92d895-d958-4c58-9bea-a58490d086c8",
+			"type": "logNode",
+			"position": {
+				"x": 1817.418356190647,
+				"y": 198.99016557276596
+			},
+			"data": {
+				"id": "logNode-6b92d895-d958-4c58-9bea-a58490d086c8",
+				"type": "logNode",
+				"position": {
+					"x": 1917.2519437317849,
+					"y": 98.4820267644584
+				},
+				"previousNodeId": "whenNode-82f4ba3a-06a5-4e1a-80c8-61257d7961cf",
+				"branching": "otherwise",
+				"agamaData": {
+					"logMessage": "\"User already registered with uid: %\" userName",
+					"logLevel": "info",
+					"nodeIcon": "octicon:log-16",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "User already registered with UID"
 				}
 			},
 			"measured": {
@@ -1278,11 +1313,30 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_whenNode-bf097f75-456c-418c-b671-8b4f2ab9721c_continue"
+		},
+		{
+			"id": "whenNode-82f4ba3a-06a5-4e1a-80c8-61257d7961cf-logNode-6b92d895-d958-4c58-9bea-a58490d086c8",
+			"type": "default",
+			"source": "whenNode-82f4ba3a-06a5-4e1a-80c8-61257d7961cf",
+			"target": "logNode-6b92d895-d958-4c58-9bea-a58490d086c8",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "otherwise",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_whenNode-82f4ba3a-06a5-4e1a-80c8-61257d7961cf_otherwise"
 		}
 	],
 	"viewport": {
-		"x": -1226.0568139102515,
-		"y": -170.48281389714697,
+		"x": -967.0568139102515,
+		"y": -87.10781389714697,
 		"zoom": 0.7412335049014176
 	}
 }
