@@ -54,3 +54,5 @@ Repeat 6 times max
                     Otherwise
                          // User already registered with mail
                          Log "@info User already registered with mail: %" email
+                         // User already Registered
+                         uiFeedback.errorMessage = "User already Registered with this mail"
