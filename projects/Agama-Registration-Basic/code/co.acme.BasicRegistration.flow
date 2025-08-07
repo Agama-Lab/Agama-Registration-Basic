@@ -44,3 +44,5 @@ Repeat 6 times max
                                    Log "@info Finish the flow successfully"
                                    // Finish the flow successfully
                                    Finish userName
+                              // Registration failed log
+                              Log "@info User registration failed. Error : %" E
