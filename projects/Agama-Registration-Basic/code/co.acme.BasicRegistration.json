@@ -701,6 +701,41 @@
 				"width": 110,
 				"height": 59
 			},
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "logNode-b500f80a-e453-4899-ada0-3409c09f6a6e",
+			"type": "logNode",
+			"position": {
+				"x": 2073.9195049167965,
+				"y": 604.8220812894837
+			},
+			"data": {
+				"id": "logNode-b500f80a-e453-4899-ada0-3409c09f6a6e",
+				"type": "logNode",
+				"position": {
+					"x": 2221.9736421009547,
+					"y": 697.9940814139973
+				},
+				"previousNodeId": "whenNode-bf097f75-456c-418c-b671-8b4f2ab9721c",
+				"branching": "success",
+				"agamaData": {
+					"logMessage": "\"User % has been created\" inum",
+					"logLevel": "info",
+					"nodeIcon": "octicon:log-16",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "Show user creation log"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 122
+			},
 			"selected": true,
 			"dragging": false
 		}
@@ -1009,11 +1044,30 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_callNode-dfa6a874-3b49-4e06-9acd-bae3cb0eeab5"
+		},
+		{
+			"id": "whenNode-bf097f75-456c-418c-b671-8b4f2ab9721c-logNode-b500f80a-e453-4899-ada0-3409c09f6a6e",
+			"type": "default",
+			"source": "whenNode-bf097f75-456c-418c-b671-8b4f2ab9721c",
+			"target": "logNode-b500f80a-e453-4899-ada0-3409c09f6a6e",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "Condition met",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_whenNode-bf097f75-456c-418c-b671-8b4f2ab9721c_success"
 		}
 	],
 	"viewport": {
-		"x": -892.5785126987116,
-		"y": -93.94205592782276,
+		"x": -989.5785126987114,
+		"y": -275.94205592782276,
 		"zoom": 0.7834971869493407
 	}
 }
