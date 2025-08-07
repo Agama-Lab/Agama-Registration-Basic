@@ -40,3 +40,5 @@ Repeat 6 times max
                                    Log "@info User % has been created" inum
                                    // Show acknowledgement UI page for successful registration
                                    acknowledgementInput = RRF "acknowledgement.ftlh" 
+                                   // Finish the flow successfully
+                                   Log "@info Finish the flow successfully"
