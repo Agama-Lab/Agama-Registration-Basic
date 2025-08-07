@@ -32,14 +32,72 @@
 				}
 			},
 			"measured": {
+				"width": 168,
+				"height": 120
+			},
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "assignmentNode-e5063e4b-46e4-4ab1-b652-0a04cc5d08e0",
+			"type": "assignmentNode",
+			"position": {
+				"x": -480,
+				"y": -460
+			},
+			"data": {
+				"id": "assignmentNode-e5063e4b-46e4-4ab1-b652-0a04cc5d08e0",
+				"type": "assignmentNode",
+				"position": {
+					"x": -480,
+					"y": -460
+				},
+				"previousNodeId": "startNode-78905ace-0341-43fc-8207-b786ae4eaccf",
+				"agamaData": {
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "{}",
+							"assignedVariableName": "uiFeedback"
+						}
+					],
+					"nodeIcon": "material-symbols:equal",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "Create  variable for UI feedback"
+				}
+			},
+			"measured": {
 				"width": 170,
 				"height": 123
 			},
-			"selected": true,
-			"dragging": false
+			"selected": true
 		}
 	],
-	"edges": [],
+	"edges": [
+		{
+			"id": "startNode-78905ace-0341-43fc-8207-b786ae4eaccf-assignmentNode-e5063e4b-46e4-4ab1-b652-0a04cc5d08e0",
+			"type": "default",
+			"source": "startNode-78905ace-0341-43fc-8207-b786ae4eaccf",
+			"target": "assignmentNode-e5063e4b-46e4-4ab1-b652-0a04cc5d08e0",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_startNode-78905ace-0341-43fc-8207-b786ae4eaccf"
+		}
+	],
 	"viewport": {
 		"x": 698.4214873012884,
 		"y": 441.1329410204195,
