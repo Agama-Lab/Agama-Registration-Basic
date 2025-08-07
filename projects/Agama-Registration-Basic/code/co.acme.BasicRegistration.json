@@ -152,7 +152,7 @@
 			"id": "callNode-886a16ce-2d04-4431-8686-626f77cc8494",
 			"type": "callNode",
 			"position": {
-				"x": 91.31397236394662,
+				"x": 67.0637257561965,
 				"y": -254.67150690901337
 			},
 			"data": {
@@ -178,6 +178,55 @@
 					"hasComment": true,
 					"comment": "create an instance of Registration service",
 					"asssignedVariableName": "userRegistrationService"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 123
+			},
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "assignmentNode-1978c37a-f076-4573-8956-595c007a2429",
+			"type": "assignmentNode",
+			"position": {
+				"x": 317.0637257561965,
+				"y": -254.67150690901337
+			},
+			"data": {
+				"id": "assignmentNode-1978c37a-f076-4573-8956-595c007a2429",
+				"type": "assignmentNode",
+				"position": {
+					"x": 317.0637257561965,
+					"y": -254.67150690901337
+				},
+				"previousNodeId": "callNode-886a16ce-2d04-4431-8686-626f77cc8494",
+				"agamaData": {
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "userInput.mail",
+							"assignedVariableName": "email"
+						},
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "userInput.uid",
+							"assignedVariableName": "userName"
+						},
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "userInput.userPassword",
+							"assignedVariableName": "userPassword"
+						}
+					],
+					"nodeIcon": "material-symbols:equal",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "Assign userName, email and password  to a variable"
 				}
 			},
 			"measured": {
@@ -263,6 +312,25 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_rrfNode-4abc072c-0def-4e8c-ac61-1cba15dc71a9"
+		},
+		{
+			"id": "callNode-886a16ce-2d04-4431-8686-626f77cc8494-assignmentNode-1978c37a-f076-4573-8956-595c007a2429",
+			"type": "default",
+			"source": "callNode-886a16ce-2d04-4431-8686-626f77cc8494",
+			"target": "assignmentNode-1978c37a-f076-4573-8956-595c007a2429",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_callNode-886a16ce-2d04-4431-8686-626f77cc8494"
 		}
 	],
 	"viewport": {
