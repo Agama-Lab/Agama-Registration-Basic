@@ -59,3 +59,5 @@ Repeat 6 times max
                Otherwise
                     // Password and Confirm password doesn't match
                     Log "@trace Password and Confirm password doesn't match"
+                    // Error variable assignment
+                    uiFeedback.errorMessage = "Password and confirm password not matching"
