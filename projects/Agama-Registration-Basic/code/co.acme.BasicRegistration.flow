@@ -49,3 +49,5 @@ Repeat 6 times max
                          Otherwise
                               // User already registered with UID
                               Log "@info User already registered with uid: %" userName
+                              // User already registered with UID
+                              uiFeedback.errorMessage = "User already registered with this UserName"
