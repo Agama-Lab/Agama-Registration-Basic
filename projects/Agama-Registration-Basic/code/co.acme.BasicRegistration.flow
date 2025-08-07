@@ -61,3 +61,6 @@ Repeat 6 times max
                     Log "@trace Password and Confirm password doesn't match"
                     // Error variable assignment
                     uiFeedback.errorMessage = "Password and confirm password not matching"
+          Otherwise
+               // password policy
+               uiFeedback.errorMessage = "Password must be at least 6 characters long and contain at least one special character"
