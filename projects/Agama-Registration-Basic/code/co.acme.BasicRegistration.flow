@@ -14,3 +14,5 @@ Repeat 6 times max
      email = userInput.mail
      userName = userInput.uid
      userPassword = userInput.userPassword
+     // Check user name policy
+     isUsernamePolicyMatch = Call userRegistrationService usernamePolicyMatch userName
