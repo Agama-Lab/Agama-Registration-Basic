@@ -616,6 +616,48 @@
 				"width": 110,
 				"height": 59
 			},
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "callNode-dfa6a874-3b49-4e06-9acd-bae3cb0eeab5",
+			"type": "callNode",
+			"position": {
+				"x": 1835.5669025267318,
+				"y": 506.3631773931029
+			},
+			"data": {
+				"id": "callNode-dfa6a874-3b49-4e06-9acd-bae3cb0eeab5",
+				"type": "callNode",
+				"position": {
+					"x": 1955.5418067966534,
+					"y": 586.7718898293269
+				},
+				"previousNodeId": "whenNode-82f4ba3a-06a5-4e1a-80c8-61257d7961cf",
+				"branching": "success",
+				"agamaData": {
+					"javaClassName": "",
+					"javaMethodName": "addNewUser",
+					"javaVariableName": "userRegistrationService",
+					"exceptionVariableField": "",
+					"callType": "Call method on instance",
+					"arguments": [
+						"userInput"
+					],
+					"nodeIcon": "material-symbols:code",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "Call user registration service method to register a new user",
+					"asssignedVariableName": "inum | E"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 122
+			},
 			"selected": true,
 			"dragging": false
 		}
@@ -886,11 +928,30 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_callNode-2f2ce8df-1939-4a7e-b18e-531b49d98c27"
+		},
+		{
+			"id": "whenNode-82f4ba3a-06a5-4e1a-80c8-61257d7961cf-callNode-dfa6a874-3b49-4e06-9acd-bae3cb0eeab5",
+			"type": "default",
+			"source": "whenNode-82f4ba3a-06a5-4e1a-80c8-61257d7961cf",
+			"target": "callNode-dfa6a874-3b49-4e06-9acd-bae3cb0eeab5",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "Condition met",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_whenNode-82f4ba3a-06a5-4e1a-80c8-61257d7961cf_success"
 		}
 	],
 	"viewport": {
-		"x": -520.5785126987117,
-		"y": 48.05794407217729,
+		"x": -680.5785126987116,
+		"y": -80.94205592782271,
 		"zoom": 0.7834971869493407
 	}
 }
