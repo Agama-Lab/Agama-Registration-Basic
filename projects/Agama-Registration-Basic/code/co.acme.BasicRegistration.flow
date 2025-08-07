@@ -70,5 +70,5 @@ Repeat 6 times max
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_inxoa = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_inxoa
+it_qpsvi = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_qpsvi
