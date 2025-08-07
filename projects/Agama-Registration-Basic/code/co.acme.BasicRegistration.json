@@ -1135,6 +1135,46 @@
 				"width": 170,
 				"height": 122
 			},
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "assignmentNode-940a6bd3-ba8f-4a0c-ac5f-e61dc3913eed",
+			"type": "assignmentNode",
+			"position": {
+				"x": 742.5962749011632,
+				"y": -363.027149779952
+			},
+			"data": {
+				"id": "assignmentNode-940a6bd3-ba8f-4a0c-ac5f-e61dc3913eed",
+				"type": "assignmentNode",
+				"position": {
+					"x": 842.4298624423009,
+					"y": -446.6715069090133
+				},
+				"previousNodeId": "whenNode-8adc66cf-362e-4a9a-a5ac-9fdb3b1d3703",
+				"branching": "otherwise",
+				"agamaData": {
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "\"Name should contain only alphabets\"",
+							"assignedVariableName": "uiFeedback.errorMessage"
+						}
+					],
+					"nodeIcon": "material-symbols:equal",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "Name should contain only alphabets"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 122
+			},
 			"selected": true,
 			"dragging": false
 		}
@@ -1671,11 +1711,30 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_whenNode-8fc3fa90-6c14-4ea2-8041-c5cff9626427_otherwise"
+		},
+		{
+			"id": "whenNode-8adc66cf-362e-4a9a-a5ac-9fdb3b1d3703-assignmentNode-940a6bd3-ba8f-4a0c-ac5f-e61dc3913eed",
+			"type": "default",
+			"source": "whenNode-8adc66cf-362e-4a9a-a5ac-9fdb3b1d3703",
+			"target": "assignmentNode-940a6bd3-ba8f-4a0c-ac5f-e61dc3913eed",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "otherwise",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_whenNode-8adc66cf-362e-4a9a-a5ac-9fdb3b1d3703_otherwise"
 		}
 	],
 	"viewport": {
-		"x": -364.056813910252,
-		"y": 245.39218610285297,
+		"x": -235.056813910252,
+		"y": 312.392186102853,
 		"zoom": 0.7412335049014176
 	}
 }
