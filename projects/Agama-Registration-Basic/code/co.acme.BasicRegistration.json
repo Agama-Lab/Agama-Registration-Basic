@@ -949,7 +949,42 @@
 				"width": 170,
 				"height": 122
 			},
-			"selected": true
+			"selected": false
+		},
+		{
+			"id": "logNode-92f3bf32-9e33-4b08-832e-d89742243e29",
+			"type": "logNode",
+			"position": {
+				"x": 1566.6607591950647,
+				"y": 6.475467641149081
+			},
+			"data": {
+				"id": "logNode-92f3bf32-9e33-4b08-832e-d89742243e29",
+				"type": "logNode",
+				"position": {
+					"x": 1612.5302453626146,
+					"y": -51.030027885080585
+				},
+				"previousNodeId": "whenNode-bfb439dd-be1c-4126-b08e-92be6d221037",
+				"branching": "otherwise",
+				"agamaData": {
+					"logMessage": "\"User already registered with mail: %\" email",
+					"logLevel": "info",
+					"nodeIcon": "octicon:log-16",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "User already registered with mail"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 122
+			},
+			"selected": true,
+			"dragging": false
 		}
 	],
 	"edges": [
@@ -1389,11 +1424,30 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_logNode-6b92d895-d958-4c58-9bea-a58490d086c8"
+		},
+		{
+			"id": "whenNode-bfb439dd-be1c-4126-b08e-92be6d221037-logNode-92f3bf32-9e33-4b08-832e-d89742243e29",
+			"type": "default",
+			"source": "whenNode-bfb439dd-be1c-4126-b08e-92be6d221037",
+			"target": "logNode-92f3bf32-9e33-4b08-832e-d89742243e29",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "otherwise",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_whenNode-bfb439dd-be1c-4126-b08e-92be6d221037_otherwise"
 		}
 	],
 	"viewport": {
-		"x": -981.056813910252,
-		"y": -90.10781389714703,
+		"x": -752.056813910252,
+		"y": 46.267186102852975,
 		"zoom": 0.7412335049014176
 	}
 }
