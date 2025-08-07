@@ -910,8 +910,46 @@
 				"width": 170,
 				"height": 122
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
+		},
+		{
+			"id": "assignmentNode-270da131-4a10-431c-8fa8-11dd712441c0",
+			"type": "assignmentNode",
+			"position": {
+				"x": 2035.0398953664944,
+				"y": 182.80093516068953
+			},
+			"data": {
+				"id": "assignmentNode-270da131-4a10-431c-8fa8-11dd712441c0",
+				"type": "assignmentNode",
+				"position": {
+					"x": 2035.0398953664944,
+					"y": 182.80093516068953
+				},
+				"previousNodeId": "logNode-6b92d895-d958-4c58-9bea-a58490d086c8",
+				"agamaData": {
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "\"User already registered with this UserName\"",
+							"assignedVariableName": "uiFeedback.errorMessage"
+						}
+					],
+					"nodeIcon": "material-symbols:equal",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "User already registered with UID"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 122
+			},
+			"selected": true
 		}
 	],
 	"edges": [
@@ -1332,11 +1370,30 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_whenNode-82f4ba3a-06a5-4e1a-80c8-61257d7961cf_otherwise"
+		},
+		{
+			"id": "logNode-6b92d895-d958-4c58-9bea-a58490d086c8-assignmentNode-270da131-4a10-431c-8fa8-11dd712441c0",
+			"type": "default",
+			"source": "logNode-6b92d895-d958-4c58-9bea-a58490d086c8",
+			"target": "assignmentNode-270da131-4a10-431c-8fa8-11dd712441c0",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_logNode-6b92d895-d958-4c58-9bea-a58490d086c8"
 		}
 	],
 	"viewport": {
-		"x": -967.0568139102515,
-		"y": -87.10781389714697,
+		"x": -981.056813910252,
+		"y": -90.10781389714703,
 		"zoom": 0.7412335049014176
 	}
 }
