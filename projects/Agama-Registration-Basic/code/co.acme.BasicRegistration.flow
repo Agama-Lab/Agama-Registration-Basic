@@ -2,3 +2,5 @@
 Flow co.acme.BasicRegistration
      Basepath ""
      Timeout 360 seconds
+// Create  variable for UI feedback
+uiFeedback = {}
