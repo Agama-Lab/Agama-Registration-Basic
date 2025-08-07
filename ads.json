@@ -17,6 +17,9 @@
             "authentication"
         ],
         "noDirectLaunch": [],
-        "configs": {}
+        "configs": {
+            "co.acme.BasicRegistration": {}
+        },
+        "name": "Agama-Registration-Basic"
     }
 }
