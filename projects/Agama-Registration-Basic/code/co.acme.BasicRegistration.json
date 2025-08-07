@@ -1,36 +1,48 @@
 {
-  "nodes": [
-    {
-      "id": "startNode-78905ace-0341-43fc-8207-b786ae4eaccf",
-      "type": "startNode",
-      "sourcePosition": "right",
-      "position": {
-        "x": 30,
-        "y": 30
-      },
-      "deletable": false,
-      "data": {
-        "id": "startNode-78905ace-0341-43fc-8207-b786ae4eaccf",
-        "type": "startNode",
-        "position": {
-          "x": 30,
-          "y": 40
-        },
-        "agamaData": {
-          "isTopLevelFlow": true,
-          "basepath": "",
-          "configParams": "{}",
-          "nodeIcon": "material-symbols:line-start-square",
-          "timeout": "",
-          "inputs": "",
-          "configs": "",
-          "flowname": "co.acme.BasicRegistration",
-          "displayName": "Agama Basic Registration Flow",
-          "creationDate": "07/08/2025",
-          "hasComment": true,
-          "comment": ""
-        }
-      }
-    }
-  ]
+	"nodes": [
+		{
+			"id": "startNode-78905ace-0341-43fc-8207-b786ae4eaccf",
+			"type": "startNode",
+			"sourcePosition": "right",
+			"position": {
+				"x": -730,
+				"y": -460
+			},
+			"deletable": false,
+			"data": {
+				"id": "startNode-78905ace-0341-43fc-8207-b786ae4eaccf",
+				"type": "startNode",
+				"position": {
+					"x": 30,
+					"y": 40
+				},
+				"agamaData": {
+					"isTopLevelFlow": true,
+					"basepath": "",
+					"configParams": "{}",
+					"nodeIcon": "material-symbols:line-start-square",
+					"timeout": "360",
+					"inputs": "",
+					"configs": "",
+					"flowname": "co.acme.BasicRegistration",
+					"displayName": "Agama Basic Registration Flow",
+					"creationDate": "07/08/2025",
+					"hasComment": true,
+					"comment": "User Registration Techniques"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 123
+			},
+			"selected": true,
+			"dragging": false
+		}
+	],
+	"edges": [],
+	"viewport": {
+		"x": 698.4214873012884,
+		"y": 441.1329410204195,
+		"zoom": 0.7834971869493407
+	}
 }
