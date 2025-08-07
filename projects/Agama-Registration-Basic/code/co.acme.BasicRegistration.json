@@ -955,8 +955,8 @@
 			"id": "logNode-92f3bf32-9e33-4b08-832e-d89742243e29",
 			"type": "logNode",
 			"position": {
-				"x": 1566.6607591950647,
-				"y": 6.475467641149081
+				"x": 1514.0457603558166,
+				"y": 21.31559551888577
 			},
 			"data": {
 				"id": "logNode-92f3bf32-9e33-4b08-832e-d89742243e29",
@@ -977,6 +977,45 @@
 					"displayName": "",
 					"hasComment": true,
 					"comment": "User already registered with mail"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 122
+			},
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "assignmentNode-4d7d14f8-bc5c-4802-a675-f145d9022c36",
+			"type": "assignmentNode",
+			"position": {
+				"x": 1764.0457603558166,
+				"y": 21.31559551888577
+			},
+			"data": {
+				"id": "assignmentNode-4d7d14f8-bc5c-4802-a675-f145d9022c36",
+				"type": "assignmentNode",
+				"position": {
+					"x": 1764.0457603558166,
+					"y": 21.31559551888577
+				},
+				"previousNodeId": "logNode-92f3bf32-9e33-4b08-832e-d89742243e29",
+				"agamaData": {
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "\"User already Registered with this mail\"",
+							"assignedVariableName": "uiFeedback.errorMessage"
+						}
+					],
+					"nodeIcon": "material-symbols:equal",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "User already Registered"
 				}
 			},
 			"measured": {
@@ -1443,10 +1482,29 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_whenNode-bfb439dd-be1c-4126-b08e-92be6d221037_otherwise"
+		},
+		{
+			"id": "logNode-92f3bf32-9e33-4b08-832e-d89742243e29-assignmentNode-4d7d14f8-bc5c-4802-a675-f145d9022c36",
+			"type": "default",
+			"source": "logNode-92f3bf32-9e33-4b08-832e-d89742243e29",
+			"target": "assignmentNode-4d7d14f8-bc5c-4802-a675-f145d9022c36",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_logNode-92f3bf32-9e33-4b08-832e-d89742243e29"
 		}
 	],
 	"viewport": {
-		"x": -752.056813910252,
+		"x": -753.056813910252,
 		"y": 46.267186102852975,
 		"zoom": 0.7412335049014176
 	}
