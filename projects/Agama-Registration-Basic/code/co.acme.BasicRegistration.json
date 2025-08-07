@@ -573,6 +573,49 @@
 				"width": 170,
 				"height": 122
 			},
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "whenNode-82f4ba3a-06a5-4e1a-80c8-61257d7961cf",
+			"type": "whenNode",
+			"position": {
+				"x": 1705.5418067966534,
+				"y": 386.771889829327
+			},
+			"data": {
+				"id": "whenNode-82f4ba3a-06a5-4e1a-80c8-61257d7961cf",
+				"type": "whenNode",
+				"position": {
+					"x": 1759.1476150874694,
+					"y": 386.771889829327
+				},
+				"previousNodeId": "callNode-2f2ce8df-1939-4a7e-b18e-531b49d98c27",
+				"agamaData": {
+					"variableField": "",
+					"valueField": "",
+					"conditionInputField": "",
+					"conditions": [
+						{
+							"variable": "userWithUid.empty",
+							"operator": "is",
+							"dataValue": "true",
+							"combinator": "none"
+						}
+					],
+					"nodeIcon": "ph:swap",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "user not found"
+				}
+			},
+			"measured": {
+				"width": 110,
+				"height": 59
+			},
 			"selected": true,
 			"dragging": false
 		}
@@ -824,11 +867,30 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_whenNode-bfb439dd-be1c-4126-b08e-92be6d221037_success"
+		},
+		{
+			"id": "callNode-2f2ce8df-1939-4a7e-b18e-531b49d98c27-whenNode-82f4ba3a-06a5-4e1a-80c8-61257d7961cf",
+			"type": "default",
+			"source": "callNode-2f2ce8df-1939-4a7e-b18e-531b49d98c27",
+			"target": "whenNode-82f4ba3a-06a5-4e1a-80c8-61257d7961cf",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_callNode-2f2ce8df-1939-4a7e-b18e-531b49d98c27"
 		}
 	],
 	"viewport": {
-		"x": -471.57851269871173,
-		"y": 170.0579440721773,
+		"x": -520.5785126987117,
+		"y": 48.05794407217729,
 		"zoom": 0.7834971869493407
 	}
 }
