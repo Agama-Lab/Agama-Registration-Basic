@@ -33,5 +33,6 @@ Repeat 6 times max
                          // user not found
                          When userWithUid.empty is true
                               // Call user registration service method to register a new user
-                              inum = Call userRegistrationService addNewUser userInput
-                              When 
+                              inum | E = Call userRegistrationService addNewUser userInput
+                              // If user registration success
+                              When inum is not null
