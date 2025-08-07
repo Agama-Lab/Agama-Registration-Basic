@@ -67,3 +67,5 @@ Repeat 6 times max
      Otherwise
           // Name should contain only alphabets
           uiFeedback.errorMessage = "Name should contain only alphabets"
+// Maximum attempt reached
+Log "@info Maximum attempt reached"
