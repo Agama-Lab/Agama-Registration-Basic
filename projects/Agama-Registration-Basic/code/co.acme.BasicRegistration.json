@@ -665,8 +665,8 @@
 			"id": "whenNode-bf097f75-456c-418c-b671-8b4f2ab9721c",
 			"type": "whenNode",
 			"position": {
-				"x": 1971.973642100955,
-				"y": 497.9940814139973
+				"x": 1986.0132585580736,
+				"y": 497.9940814139974
 			},
 			"data": {
 				"id": "whenNode-bf097f75-456c-418c-b671-8b4f2ab9721c",
@@ -771,7 +771,7 @@
 				"width": 170,
 				"height": 122
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
 		},
 		{
@@ -841,6 +841,41 @@
 				"height": 122
 			},
 			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "logNode-c1b17700-6f4a-4bce-9f6d-8fd57bbb8dee",
+			"type": "logNode",
+			"position": {
+				"x": 2190.3509421974927,
+				"y": 364.22025723345354
+			},
+			"data": {
+				"id": "logNode-c1b17700-6f4a-4bce-9f6d-8fd57bbb8dee",
+				"type": "logNode",
+				"position": {
+					"x": 2236.0132585580736,
+					"y": 497.9940814139974
+				},
+				"previousNodeId": "whenNode-bf097f75-456c-418c-b671-8b4f2ab9721c",
+				"branching": "continue",
+				"agamaData": {
+					"logMessage": "\"User registration failed. Error : %\" E",
+					"logLevel": "info",
+					"nodeIcon": "octicon:log-16",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "Registration failed log"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 122
+			},
+			"selected": true,
 			"dragging": false
 		}
 	],
@@ -1224,11 +1259,30 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_logNode-add8a620-7052-4306-8b2b-dbe5964dcb4e"
+		},
+		{
+			"id": "whenNode-bf097f75-456c-418c-b671-8b4f2ab9721c-logNode-c1b17700-6f4a-4bce-9f6d-8fd57bbb8dee",
+			"type": "default",
+			"source": "whenNode-bf097f75-456c-418c-b671-8b4f2ab9721c",
+			"target": "logNode-c1b17700-6f4a-4bce-9f6d-8fd57bbb8dee",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "continue",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_whenNode-bf097f75-456c-418c-b671-8b4f2ab9721c_continue"
 		}
 	],
 	"viewport": {
-		"x": -1312.7951459578308,
-		"y": -313.7254226687032,
-		"zoom": 0.7834971869493407
+		"x": -1226.0568139102515,
+		"y": -170.48281389714697,
+		"zoom": 0.7412335049014176
 	}
 }
