@@ -24,3 +24,5 @@ Repeat 6 times max
           When isPasswordPolicyMatch is true
                // Matching password
                When userInput.userPassword is userInput.confirmPassword
+                    // Check user already exist or not with mail
+                    user = Call userRegistrationService getUserEntityByMail email
