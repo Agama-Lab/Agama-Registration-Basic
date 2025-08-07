@@ -639,7 +639,7 @@
 					"javaClassName": "",
 					"javaMethodName": "addNewUser",
 					"javaVariableName": "userRegistrationService",
-					"exceptionVariableField": "",
+					"exceptionVariableField": "E",
 					"callType": "Call method on instance",
 					"arguments": [
 						"userInput"
@@ -680,14 +680,21 @@
 					"variableField": "",
 					"valueField": "",
 					"conditionInputField": "",
-					"conditions": [],
+					"conditions": [
+						{
+							"variable": "inum",
+							"operator": "is not",
+							"dataValue": "null",
+							"combinator": "none"
+						}
+					],
 					"nodeIcon": "ph:swap",
 					"nodeColor": "",
 					"titleColor": "",
 					"descColor": "",
 					"displayName": "",
 					"hasComment": true,
-					"comment": ""
+					"comment": "If user registration success"
 				}
 			},
 			"measured": {
