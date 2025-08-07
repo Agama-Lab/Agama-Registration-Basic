@@ -281,8 +281,8 @@
 			"id": "whenNode-8adc66cf-362e-4a9a-a5ac-9fdb3b1d3703",
 			"type": "whenNode",
 			"position": {
-				"x": 652.4173145772615,
-				"y": -199.22416444667124
+				"x": 623.0617528941957,
+				"y": -196.67150690901332
 			},
 			"data": {
 				"id": "whenNode-8adc66cf-362e-4a9a-a5ac-9fdb3b1d3703",
@@ -317,14 +317,15 @@
 				"width": 110,
 				"height": 59
 			},
-			"selected": false
+			"selected": false,
+			"dragging": false
 		},
 		{
 			"id": "callNode-3a180acb-3fea-4bc6-b467-3d4bc91a1aba",
 			"type": "callNode",
 			"position": {
-				"x": 799.0346843021164,
-				"y": -103.88312349064539
+				"x": 773.5081089255374,
+				"y": -102.60679472181644
 			},
 			"data": {
 				"id": "callNode-3a180acb-3fea-4bc6-b467-3d4bc91a1aba",
@@ -365,7 +366,7 @@
 			"id": "whenNode-8fc3fa90-6c14-4ea2-8041-c5cff9626427",
 			"type": "whenNode",
 			"position": {
-				"x": 1046.4820267644584,
+				"x": 997.9815335489582,
 				"y": -45.88312349064539
 			},
 			"data": {
@@ -395,6 +396,50 @@
 					"displayName": "",
 					"hasComment": true,
 					"comment": "if password policy match"
+				}
+			},
+			"measured": {
+				"width": 110,
+				"height": 59
+			},
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "whenNode-2145ed2f-dbbd-4a65-88e4-a53709dae3ef",
+			"type": "whenNode",
+			"position": {
+				"x": 1111.4143552842602,
+				"y": 83.91879422376218
+			},
+			"data": {
+				"id": "whenNode-2145ed2f-dbbd-4a65-88e4-a53709dae3ef",
+				"type": "whenNode",
+				"position": {
+					"x": 1247.9815335489582,
+					"y": 154.1168765093546
+				},
+				"previousNodeId": "whenNode-8fc3fa90-6c14-4ea2-8041-c5cff9626427",
+				"branching": "success",
+				"agamaData": {
+					"variableField": "",
+					"valueField": "",
+					"conditionInputField": "",
+					"conditions": [
+						{
+							"variable": "userInput.userPassword",
+							"operator": "is",
+							"dataValue": "userInput.confirmPassword",
+							"combinator": "none"
+						}
+					],
+					"nodeIcon": "ph:swap",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "Matching password"
 				}
 			},
 			"measured": {
@@ -576,6 +621,25 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_callNode-3a180acb-3fea-4bc6-b467-3d4bc91a1aba"
+		},
+		{
+			"id": "whenNode-8fc3fa90-6c14-4ea2-8041-c5cff9626427-whenNode-2145ed2f-dbbd-4a65-88e4-a53709dae3ef",
+			"type": "default",
+			"source": "whenNode-8fc3fa90-6c14-4ea2-8041-c5cff9626427",
+			"target": "whenNode-2145ed2f-dbbd-4a65-88e4-a53709dae3ef",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "Condition met",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_whenNode-8fc3fa90-6c14-4ea2-8041-c5cff9626427_success"
 		}
 	],
 	"viewport": {
