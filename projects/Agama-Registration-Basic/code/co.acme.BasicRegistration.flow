@@ -22,3 +22,5 @@ Repeat 6 times max
           isPasswordPolicyMatch = Call userRegistrationService passwordPolicyMatch userPassword
           // if password policy match
           When isPasswordPolicyMatch is true
+               // Matching password
+               When userInput.userPassword is userInput.confirmPassword
