@@ -1029,8 +1029,8 @@
 			"id": "logNode-84a4870a-4373-4558-a056-d5293bbe757f",
 			"type": "logNode",
 			"position": {
-				"x": 1235.90306909074,
-				"y": -136.14902971386775
+				"x": 1190.0335829231904,
+				"y": -111.86518409575318
 			},
 			"data": {
 				"id": "logNode-84a4870a-4373-4558-a056-d5293bbe757f",
@@ -1057,8 +1057,46 @@
 				"width": 170,
 				"height": 122
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
+		},
+		{
+			"id": "assignmentNode-89e874e7-1073-484e-bf2b-bb68adfbfadb",
+			"type": "assignmentNode",
+			"position": {
+				"x": 1440.0335829231904,
+				"y": -111.86518409575318
+			},
+			"data": {
+				"id": "assignmentNode-89e874e7-1073-484e-bf2b-bb68adfbfadb",
+				"type": "assignmentNode",
+				"position": {
+					"x": 1440.0335829231904,
+					"y": -111.86518409575318
+				},
+				"previousNodeId": "logNode-84a4870a-4373-4558-a056-d5293bbe757f",
+				"agamaData": {
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "\"Password and confirm password not matching\"",
+							"assignedVariableName": "uiFeedback.errorMessage"
+						}
+					],
+					"nodeIcon": "material-symbols:equal",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "Error variable assignment"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 122
+			},
+			"selected": true
 		}
 	],
 	"edges": [
@@ -1555,6 +1593,25 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_whenNode-2145ed2f-dbbd-4a65-88e4-a53709dae3ef_otherwise"
+		},
+		{
+			"id": "logNode-84a4870a-4373-4558-a056-d5293bbe757f-assignmentNode-89e874e7-1073-484e-bf2b-bb68adfbfadb",
+			"type": "default",
+			"source": "logNode-84a4870a-4373-4558-a056-d5293bbe757f",
+			"target": "assignmentNode-89e874e7-1073-484e-bf2b-bb68adfbfadb",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_logNode-84a4870a-4373-4558-a056-d5293bbe757f"
 		}
 	],
 	"viewport": {
