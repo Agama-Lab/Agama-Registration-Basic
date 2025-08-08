@@ -22,7 +22,7 @@ Repeat 6 times max
           isPasswordPolicyMatch = Call userRegistrationService passwordPolicyMatch userPassword
           // if password policy match
           When isPasswordPolicyMatch is true
-               // Matching password
+               // Matching password 
                When userInput.userPassword is userInput.confirmPassword
                     // Check user already exist or not with mail
                     user = Call userRegistrationService getUserEntityByMail email
@@ -70,5 +70,5 @@ Repeat 6 times max
 // Maximum attempt reached
 Log "@info Maximum attempt reached"
 // User Registration flow failed
-it_vpbno = {success:false, error: "User registration flow reached max attempts try later"}
-Finish it_vpbno
+it_wstoi = {success:false, error: "User registration flow reached max attempts try later"}
+Finish it_wstoi
