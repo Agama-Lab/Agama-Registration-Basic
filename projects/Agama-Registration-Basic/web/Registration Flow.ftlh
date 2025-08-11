@@ -2,35 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head><meta charset="UTF-8"><title>User Registration</title></head>
-<body>
-
-
-  
-  
-
-
-  <h2>Register</h2>
-  <form id="registrationForm">
-    <label for="uid">Username:</label><br>
-    <input type="text" id="uid" name="uid" required=""><br><br>
-
-    <label for="mail">Email:</label><br>
-    <input type="email" id="mail" name="mail" required=""><br><br>
-
-    <label for="userPassword">Password:</label><br>
-    <input type="password" id="userPassword" name="userPassword" required=""><br><br>
-
-    <label for="confirmPassword">Confirm Password:</label><br>
-    <input type="password" id="confirmPassword" name="confirmPassword" required=""><br><br>
-
-    <button type="submit">Register</button>
-  </form>
-
-  <div id="response" style="margin-top:20px; color:red;"></div>
-
-  
-
-</body>
+<body><h2>Register</h2><form method="post" id="registrationForm"><label for="uid">Username:</label><br><input type="text" id="uid" name="uid" required=""><br><br><label for="mail">Email:</label><br><input type="email" id="mail" name="mail" required=""><br><br><label for="userPassword">Password:</label><br><input type="password" id="userPassword" name="userPassword" required=""><br><br><label for="confirmPassword">Confirm Password:</label><br><input type="password" id="confirmPassword" name="confirmPassword" required=""><br><br><button type="submit">Register</button></form><div id="response"></div></body>
 
 <script>
     const form = document.getElementById('registrationForm');
