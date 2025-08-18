@@ -5,3 +5,5 @@ Flow org.gluu.agama.registration.basic
 uiFeedback = {}
 // Iterate x times max
 Repeat 6 times max
+     // Retrieve user profile  from UI
+     userInput = RRF "profile.ftlh" uiFeedback
