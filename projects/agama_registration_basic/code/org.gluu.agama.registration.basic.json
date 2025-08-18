@@ -1023,7 +1023,81 @@
 				"width": 170,
 				"height": 122
 			},
-			"selected": true
+			"selected": false
+		},
+		{
+			"id": "logNode-5521e2e6-e77f-4ab0-8f94-c9d3234b7a0d",
+			"type": "logNode",
+			"position": {
+				"x": 2140.982710488939,
+				"y": 407.87001940737645
+			},
+			"data": {
+				"id": "logNode-5521e2e6-e77f-4ab0-8f94-c9d3234b7a0d",
+				"type": "logNode",
+				"position": {
+					"x": 2223.633832569474,
+					"y": 392.3729340172762
+				},
+				"previousNodeId": "whenNode-a3c33e15-066b-48bb-96cf-4045e97d43c3",
+				"branching": "otherwise",
+				"agamaData": {
+					"logMessage": "\"Password and Confirm password doesn't match\"",
+					"logLevel": "trace",
+					"nodeIcon": "octicon:log-16",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "Password and Confirm password doesn't match"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 122
+			},
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "assignmentNode-429064e4-1abc-435a-9150-64ec0dd18036",
+			"type": "assignmentNode",
+			"position": {
+				"x": 2363.432336462094,
+				"y": 404.4262226540208
+			},
+			"data": {
+				"id": "assignmentNode-429064e4-1abc-435a-9150-64ec0dd18036",
+				"type": "assignmentNode",
+				"position": {
+					"x": 2404.7578975023616,
+					"y": 404.4262226540208
+				},
+				"previousNodeId": "logNode-5521e2e6-e77f-4ab0-8f94-c9d3234b7a0d",
+				"agamaData": {
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "\"Password and confirm password not matching\"",
+							"assignedVariableName": "uiFeedback.errorMessage"
+						}
+					],
+					"nodeIcon": "material-symbols:equal",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "Error variable assignment"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 122
+			},
+			"selected": true,
+			"dragging": false
 		}
 	],
 	"edges": [
@@ -1501,11 +1575,49 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_logNode-eeddff41-8704-4fda-b074-7988e507f532"
+		},
+		{
+			"id": "whenNode-a3c33e15-066b-48bb-96cf-4045e97d43c3-logNode-5521e2e6-e77f-4ab0-8f94-c9d3234b7a0d",
+			"type": "default",
+			"source": "whenNode-a3c33e15-066b-48bb-96cf-4045e97d43c3",
+			"target": "logNode-5521e2e6-e77f-4ab0-8f94-c9d3234b7a0d",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "otherwise",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_whenNode-a3c33e15-066b-48bb-96cf-4045e97d43c3_otherwise"
+		},
+		{
+			"id": "logNode-5521e2e6-e77f-4ab0-8f94-c9d3234b7a0d-assignmentNode-429064e4-1abc-435a-9150-64ec0dd18036",
+			"type": "default",
+			"source": "logNode-5521e2e6-e77f-4ab0-8f94-c9d3234b7a0d",
+			"target": "assignmentNode-429064e4-1abc-435a-9150-64ec0dd18036",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_logNode-5521e2e6-e77f-4ab0-8f94-c9d3234b7a0d"
 		}
 	],
 	"viewport": {
-		"x": -1061.8526403010428,
-		"y": -249.81677940391705,
+		"x": -764.8526403010428,
+		"y": -138.81677940391705,
 		"zoom": 0.580754365962861
 	}
 }
