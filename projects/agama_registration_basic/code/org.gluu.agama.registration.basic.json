@@ -282,7 +282,7 @@
 			"type": "whenNode",
 			"position": {
 				"x": 1483.9049362566113,
-				"y": 344.53976705551446
+				"y": 349.9999999999999
 			},
 			"data": {
 				"id": "whenNode-aabd04af-b826-46d3-9435-8063628d6f96",
@@ -316,6 +316,48 @@
 			"measured": {
 				"width": 110,
 				"height": 60
+			},
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "callNode-e83eff8d-7c88-46fe-9316-b3e286c2d04b",
+			"type": "callNode",
+			"position": {
+				"x": 1630.1605103113889,
+				"y": 464.45635053639535
+			},
+			"data": {
+				"id": "callNode-e83eff8d-7c88-46fe-9316-b3e286c2d04b",
+				"type": "callNode",
+				"position": {
+					"x": 1733.9049362566113,
+					"y": 544.5397670555144
+				},
+				"previousNodeId": "whenNode-aabd04af-b826-46d3-9435-8063628d6f96",
+				"branching": "success",
+				"agamaData": {
+					"javaClassName": "",
+					"javaMethodName": "passwordPolicyMatch",
+					"javaVariableName": "userRegistrationService",
+					"exceptionVariableField": "",
+					"callType": "Call method on instance",
+					"arguments": [
+						"userPassword"
+					],
+					"nodeIcon": "material-symbols:code",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "Password policy check",
+					"asssignedVariableName": "isPasswordPolicyMatch"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 122
 			},
 			"selected": true,
 			"dragging": false
@@ -454,11 +496,30 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_callNode-cab0e5d2-12b4-4c61-8b5d-3de7a587f8df"
+		},
+		{
+			"id": "whenNode-aabd04af-b826-46d3-9435-8063628d6f96-callNode-e83eff8d-7c88-46fe-9316-b3e286c2d04b",
+			"type": "default",
+			"source": "whenNode-aabd04af-b826-46d3-9435-8063628d6f96",
+			"target": "callNode-e83eff8d-7c88-46fe-9316-b3e286c2d04b",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "Condition met",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_whenNode-aabd04af-b826-46d3-9435-8063628d6f96_success"
 		}
 	],
 	"viewport": {
-		"x": -124.85168412456846,
-		"y": 34.41114089504265,
+		"x": -308.85168412456846,
+		"y": -41.58885910495741,
 		"zoom": 0.5494271087884399
 	}
 }
