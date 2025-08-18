@@ -1,36 +1,48 @@
 {
-  "nodes": [
-    {
-      "id": "startNode-685303b9-75f8-4b09-9aa9-ace85b959070",
-      "type": "startNode",
-      "sourcePosition": "right",
-      "position": {
-        "x": 30,
-        "y": 30
-      },
-      "deletable": false,
-      "data": {
-        "id": "startNode-685303b9-75f8-4b09-9aa9-ace85b959070",
-        "type": "startNode",
-        "position": {
-          "x": 30,
-          "y": 40
-        },
-        "agamaData": {
-          "isTopLevelFlow": true,
-          "basepath": "",
-          "configParams": "{}",
-          "nodeIcon": "material-symbols:line-start-square",
-          "timeout": "",
-          "inputs": "",
-          "configs": "",
-          "flowname": "org.gluu.agama.registration.basic",
-          "displayName": "agama.registration.basic",
-          "creationDate": "18/08/2025",
-          "hasComment": true,
-          "comment": ""
-        }
-      }
-    }
-  ]
+	"nodes": [
+		{
+			"id": "startNode-685303b9-75f8-4b09-9aa9-ace85b959070",
+			"type": "startNode",
+			"sourcePosition": "right",
+			"position": {
+				"x": 87,
+				"y": 42
+			},
+			"deletable": false,
+			"data": {
+				"id": "startNode-685303b9-75f8-4b09-9aa9-ace85b959070",
+				"type": "startNode",
+				"position": {
+					"x": 30,
+					"y": 40
+				},
+				"agamaData": {
+					"isTopLevelFlow": true,
+					"basepath": "",
+					"configParams": "{}",
+					"nodeIcon": "material-symbols:line-start-square",
+					"timeout": "",
+					"inputs": "",
+					"configs": "",
+					"flowname": "org.gluu.agama.registration.basic",
+					"displayName": "agama.registration.basic",
+					"creationDate": "18/08/2025",
+					"hasComment": true,
+					"comment": ""
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 122
+			},
+			"selected": true,
+			"dragging": false
+		}
+	],
+	"edges": [],
+	"viewport": {
+		"x": 0,
+		"y": 0,
+		"zoom": 1
+	}
 }
