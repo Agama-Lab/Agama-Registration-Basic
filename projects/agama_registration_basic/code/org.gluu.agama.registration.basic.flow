@@ -29,3 +29,5 @@ Repeat 6 times max
                     When user.empty is true
                          // Check user already exist or not with username
                          userWithUid = Call userRegistrationService getUserEntityByUsername userName
+                         // user not found
+                         When userWithUid.empty is true
