@@ -531,6 +531,48 @@
 				"width": 110,
 				"height": 60
 			},
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "callNode-01c6a92b-2a91-4b70-a643-93192b48e1b1",
+			"type": "callNode",
+			"position": {
+				"x": 2585.307931309177,
+				"y": 969.3273433496269
+			},
+			"data": {
+				"id": "callNode-01c6a92b-2a91-4b70-a643-93192b48e1b1",
+				"type": "callNode",
+				"position": {
+					"x": 2628.9897948650605,
+					"y": 1020.2895174981571
+				},
+				"previousNodeId": "whenNode-81399a7c-d5dd-4d4b-b2c9-e55f41f75486",
+				"branching": "success",
+				"agamaData": {
+					"javaClassName": "",
+					"javaMethodName": "getUserEntityByUsername",
+					"javaVariableName": "userRegistrationService",
+					"exceptionVariableField": "",
+					"callType": "Call method on instance",
+					"arguments": [
+						"userName"
+					],
+					"nodeIcon": "material-symbols:code",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "Check user already exist or not with username",
+					"asssignedVariableName": "userWithUid"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 122
+			},
 			"selected": true,
 			"dragging": false
 		}
@@ -763,6 +805,25 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_callNode-68be76ca-fa7f-4d9f-a0f3-96682695347c"
+		},
+		{
+			"id": "whenNode-81399a7c-d5dd-4d4b-b2c9-e55f41f75486-callNode-01c6a92b-2a91-4b70-a643-93192b48e1b1",
+			"type": "default",
+			"source": "whenNode-81399a7c-d5dd-4d4b-b2c9-e55f41f75486",
+			"target": "callNode-01c6a92b-2a91-4b70-a643-93192b48e1b1",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "Condition met",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_whenNode-81399a7c-d5dd-4d4b-b2c9-e55f41f75486_success"
 		}
 	],
 	"viewport": {
