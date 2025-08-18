@@ -40,6 +40,9 @@
             "authorization"
         ],
         "noDirectLaunch": [],
-        "configs": {}
+        "configs": {
+            "org.gluu.agama.registration.basic": {}
+        },
+        "name": "agama_registration_basic"
     }
 }
