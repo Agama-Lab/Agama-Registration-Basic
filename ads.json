@@ -22,5 +22,24 @@
             "": {}
         },
         "name": "Agama-Registration-Basic"
+    },
+    "agama_registration_basic": {
+        "projectName": "agama_registration_basic",
+        "description": "agama_registration_basic_flow",
+        "type": "community",
+        "author": "Agama-Lab",
+        "version": "0.0.1",
+        "authorWebsite": "https://github.com/Agama-Lab/Agama-Registration-Basic",
+        "githubUri": "https://github.com/Agama-Lab/Agama-Registration-Basic",
+        "license": "apache-2.0",
+        "lastUpdated": "1755503674517",
+        "tags": [
+            "openid-connect",
+            "jans",
+            "authentication",
+            "authorization"
+        ],
+        "noDirectLaunch": [],
+        "configs": {}
     }
 }
