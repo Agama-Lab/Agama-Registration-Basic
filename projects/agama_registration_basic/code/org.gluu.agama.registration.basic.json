@@ -840,7 +840,7 @@
 				"width": 170,
 				"height": 122
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
 		},
 		{
@@ -1104,8 +1104,8 @@
 			"id": "assignmentNode-cdf15a1e-662b-4c4b-a1be-9b4f9e763325",
 			"type": "assignmentNode",
 			"position": {
-				"x": 1989.954158390065,
-				"y": 269.20891232600763
+				"x": 1979.954158390065,
+				"y": 279.20891232600763
 			},
 			"data": {
 				"id": "assignmentNode-cdf15a1e-662b-4c4b-a1be-9b4f9e763325",
@@ -1144,8 +1144,8 @@
 			"id": "assignmentNode-361a6b06-793e-4780-b280-9d86512c21ce",
 			"type": "assignmentNode",
 			"position": {
-				"x": 1632.3129320326207,
-				"y": 144.76935779362287
+				"x": 1640.3129320326207,
+				"y": 118.76935779362287
 			},
 			"data": {
 				"id": "assignmentNode-361a6b06-793e-4780-b280-9d86512c21ce",
@@ -1177,7 +1177,7 @@
 				"width": 170,
 				"height": 122
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false
 		},
 		{
@@ -1841,8 +1841,8 @@
 		}
 	],
 	"viewport": {
-		"x": -946.5081593071914,
-		"y": -370.08315625543344,
+		"x": 31.491840692808637,
+		"y": 53.91684374456656,
 		"zoom": 0.5
 	}
 }
