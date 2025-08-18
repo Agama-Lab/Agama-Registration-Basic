@@ -28,14 +28,14 @@
 					"displayName": "agama.registration.basic",
 					"creationDate": "18/08/2025",
 					"hasComment": true,
-					"comment": ""
+					"comment": "User Registration Techniques"
 				}
 			},
 			"measured": {
 				"width": 168,
 				"height": 120
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false
 		},
 		{
@@ -871,7 +871,7 @@
 				"width": 170,
 				"height": 122
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
 		}
 	],
@@ -1277,8 +1277,8 @@
 		}
 	],
 	"viewport": {
-		"x": -1329.8516841245685,
-		"y": -568.5888591049575,
-		"zoom": 0.5494271087884399
+		"x": 303.5720153628122,
+		"y": 62.65984883339979,
+		"zoom": 0.5
 	}
 }
