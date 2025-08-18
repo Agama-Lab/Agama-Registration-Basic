@@ -9,3 +9,7 @@ Repeat 6 times max
      userInput = RRF "profile.ftlh" uiFeedback
      // create an instance of Registration service
      userRegistrationService = Call org.gluu.agama.user.UserRegistration getInstance 
+     // Assign userName, email and password  to a variable
+     email = userInput.mail
+     userName = userInput.uid
+     userPassword = userInput.userPassword
