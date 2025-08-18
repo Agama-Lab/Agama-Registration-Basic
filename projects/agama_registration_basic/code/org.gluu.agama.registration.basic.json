@@ -359,6 +359,49 @@
 				"width": 170,
 				"height": 122
 			},
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "whenNode-5b2e43df-03f5-4244-84ce-e76413c34c85",
+			"type": "whenNode",
+			"position": {
+				"x": 1834.658569107344,
+				"y": 526.0965058327189
+			},
+			"data": {
+				"id": "whenNode-5b2e43df-03f5-4244-84ce-e76413c34c85",
+				"type": "whenNode",
+				"position": {
+					"x": 1880.1605103113889,
+					"y": 522.4563505363953
+				},
+				"previousNodeId": "callNode-e83eff8d-7c88-46fe-9316-b3e286c2d04b",
+				"agamaData": {
+					"variableField": "",
+					"valueField": "",
+					"conditionInputField": "",
+					"conditions": [
+						{
+							"variable": "isPasswordPolicyMatch",
+							"operator": "is",
+							"dataValue": "true",
+							"combinator": "none"
+						}
+					],
+					"nodeIcon": "ph:swap",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "if password policy match"
+				}
+			},
+			"measured": {
+				"width": 110,
+				"height": 60
+			},
 			"selected": true,
 			"dragging": false
 		}
@@ -515,6 +558,25 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_whenNode-aabd04af-b826-46d3-9435-8063628d6f96_success"
+		},
+		{
+			"id": "callNode-e83eff8d-7c88-46fe-9316-b3e286c2d04b-whenNode-5b2e43df-03f5-4244-84ce-e76413c34c85",
+			"type": "default",
+			"source": "callNode-e83eff8d-7c88-46fe-9316-b3e286c2d04b",
+			"target": "whenNode-5b2e43df-03f5-4244-84ce-e76413c34c85",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_callNode-e83eff8d-7c88-46fe-9316-b3e286c2d04b"
 		}
 	],
 	"viewport": {
