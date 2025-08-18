@@ -25,3 +25,5 @@ Repeat 6 times max
                When userInput.userPassword is userInput.confirmPassword
                     // Check user already exist or not with mail
                     user = Call userRegistrationService getUserEntityByMail email
+                    // If user not found
+                    When user.empty is true
