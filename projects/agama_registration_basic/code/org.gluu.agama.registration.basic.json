@@ -240,8 +240,8 @@
 			"id": "callNode-cab0e5d2-12b4-4c61-8b5d-3de7a587f8df",
 			"type": "callNode",
 			"position": {
-				"x": 1288.5072657014653,
-				"y": 293.8200776481617
+				"x": 1263.0261786272001,
+				"y": 295.6401552963235
 			},
 			"data": {
 				"id": "callNode-cab0e5d2-12b4-4c61-8b5d-3de7a587f8df",
@@ -274,7 +274,51 @@
 				"width": 170,
 				"height": 122
 			},
-			"selected": true
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "whenNode-aabd04af-b826-46d3-9435-8063628d6f96",
+			"type": "whenNode",
+			"position": {
+				"x": 1483.9049362566113,
+				"y": 344.53976705551446
+			},
+			"data": {
+				"id": "whenNode-aabd04af-b826-46d3-9435-8063628d6f96",
+				"type": "whenNode",
+				"position": {
+					"x": 1513.0261786272001,
+					"y": 353.6401552963235
+				},
+				"previousNodeId": "callNode-cab0e5d2-12b4-4c61-8b5d-3de7a587f8df",
+				"agamaData": {
+					"variableField": "",
+					"valueField": "",
+					"conditionInputField": "",
+					"conditions": [
+						{
+							"variable": "isUsernamePolicyMatch",
+							"operator": "is",
+							"dataValue": "true",
+							"combinator": "none"
+						}
+					],
+					"nodeIcon": "ph:swap",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "if username policy match"
+				}
+			},
+			"measured": {
+				"width": 110,
+				"height": 60
+			},
+			"selected": true,
+			"dragging": false
 		}
 	],
 	"edges": [
@@ -391,6 +435,25 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_assignmentNode-9fb6df09-febe-4c2e-82ad-88f2f06ee243"
+		},
+		{
+			"id": "callNode-cab0e5d2-12b4-4c61-8b5d-3de7a587f8df-whenNode-aabd04af-b826-46d3-9435-8063628d6f96",
+			"type": "default",
+			"source": "callNode-cab0e5d2-12b4-4c61-8b5d-3de7a587f8df",
+			"target": "whenNode-aabd04af-b826-46d3-9435-8063628d6f96",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_callNode-cab0e5d2-12b4-4c61-8b5d-3de7a587f8df"
 		}
 	],
 	"viewport": {
