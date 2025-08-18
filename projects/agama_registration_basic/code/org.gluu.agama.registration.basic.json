@@ -1136,6 +1136,46 @@
 				"width": 170,
 				"height": 122
 			},
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "assignmentNode-361a6b06-793e-4780-b280-9d86512c21ce",
+			"type": "assignmentNode",
+			"position": {
+				"x": 1632.3129320326207,
+				"y": 144.76935779362287
+			},
+			"data": {
+				"id": "assignmentNode-361a6b06-793e-4780-b280-9d86512c21ce",
+				"type": "assignmentNode",
+				"position": {
+					"x": 1733.9049362566113,
+					"y": 99.99999999999989
+				},
+				"previousNodeId": "whenNode-aabd04af-b826-46d3-9435-8063628d6f96",
+				"branching": "otherwise",
+				"agamaData": {
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "\"Name should contain only alphabets\"",
+							"assignedVariableName": "uiFeedback.errorMessage"
+						}
+					],
+					"nodeIcon": "material-symbols:equal",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "Name should contain only alphabets"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 122
+			},
 			"selected": true,
 			"dragging": false
 		}
@@ -1672,11 +1712,30 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_whenNode-5b2e43df-03f5-4244-84ce-e76413c34c85_otherwise"
+		},
+		{
+			"id": "whenNode-aabd04af-b826-46d3-9435-8063628d6f96-assignmentNode-361a6b06-793e-4780-b280-9d86512c21ce",
+			"type": "default",
+			"source": "whenNode-aabd04af-b826-46d3-9435-8063628d6f96",
+			"target": "assignmentNode-361a6b06-793e-4780-b280-9d86512c21ce",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "otherwise",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_whenNode-aabd04af-b826-46d3-9435-8063628d6f96_otherwise"
 		}
 	],
 	"viewport": {
-		"x": -716.8526403010428,
-		"y": -113.81677940391711,
+		"x": -506.8526403010428,
+		"y": -35.81677940391711,
 		"zoom": 0.580754365962861
 	}
 }
