@@ -35,3 +35,5 @@ Repeat 6 times max
                               inum | E = Call userRegistrationService addNewUser userInput
                               // If user registration success
                               When inum is not null
+                                   // Show user creation log
+                                   Log "@info User % has been created" inum
