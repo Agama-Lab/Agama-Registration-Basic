@@ -31,3 +31,5 @@ Repeat 6 times max
                          userWithUid = Call userRegistrationService getUserEntityByUsername userName
                          // user not found
                          When userWithUid.empty is true
+                              // Call user registration service method to register a new user
+                              inum | E = Call userRegistrationService addNewUser userInput
