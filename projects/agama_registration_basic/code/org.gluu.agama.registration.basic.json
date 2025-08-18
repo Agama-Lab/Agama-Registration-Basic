@@ -35,7 +35,7 @@
 				"width": 168,
 				"height": 120
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
 		},
 		{
@@ -873,6 +873,41 @@
 			},
 			"selected": false,
 			"dragging": false
+		},
+		{
+			"id": "logNode-a81bb98d-7b18-4e06-a998-52bfc8b3e7bb",
+			"type": "logNode",
+			"position": {
+				"x": 2976.783005068441,
+				"y": 889.0543792907164
+			},
+			"data": {
+				"id": "logNode-a81bb98d-7b18-4e06-a998-52bfc8b3e7bb",
+				"type": "logNode",
+				"position": {
+					"x": 3052.546533642265,
+					"y": 773.6871880533033
+				},
+				"previousNodeId": "whenNode-85304a04-050e-473d-b52d-df7ed2e63944",
+				"branching": "otherwise",
+				"agamaData": {
+					"logMessage": "\"User already registered with uid: %\" userName",
+					"logLevel": "info",
+					"nodeIcon": "octicon:log-16",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "User already registered with UID"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 122
+			},
+			"selected": true,
+			"dragging": false
 		}
 	],
 	"edges": [
@@ -1274,11 +1309,30 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_whenNode-1e8dd908-f446-45a2-a2f9-0af455ac150f_continue"
+		},
+		{
+			"id": "whenNode-85304a04-050e-473d-b52d-df7ed2e63944-logNode-a81bb98d-7b18-4e06-a998-52bfc8b3e7bb",
+			"type": "default",
+			"source": "whenNode-85304a04-050e-473d-b52d-df7ed2e63944",
+			"target": "logNode-a81bb98d-7b18-4e06-a998-52bfc8b3e7bb",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "otherwise",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_whenNode-85304a04-050e-473d-b52d-df7ed2e63944_otherwise"
 		}
 	],
 	"viewport": {
-		"x": 303.5720153628122,
-		"y": 62.65984883339979,
-		"zoom": 0.5
+		"x": -1295.5218931378788,
+		"y": -365.98140591153185,
+		"zoom": 0.580754365962861
 	}
 }
