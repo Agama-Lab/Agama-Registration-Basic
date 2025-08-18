@@ -446,6 +446,48 @@
 				"width": 110,
 				"height": 60
 			},
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "callNode-68be76ca-fa7f-4d9f-a0f3-96682695347c",
+			"type": "callNode",
+			"position": {
+				"x": 2149.0106489948403,
+				"y": 762.2895174981571
+			},
+			"data": {
+				"id": "callNode-68be76ca-fa7f-4d9f-a0f3-96682695347c",
+				"type": "callNode",
+				"position": {
+					"x": 2223.633832569474,
+					"y": 842.3729340172762
+				},
+				"previousNodeId": "whenNode-a3c33e15-066b-48bb-96cf-4045e97d43c3",
+				"branching": "success",
+				"agamaData": {
+					"javaClassName": "",
+					"javaMethodName": "getUserEntityByMail",
+					"javaVariableName": "userRegistrationService",
+					"exceptionVariableField": "",
+					"callType": "Call method on instance",
+					"arguments": [
+						"email"
+					],
+					"nodeIcon": "material-symbols:code",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "Check user already exist or not with mail",
+					"asssignedVariableName": "user"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 122
+			},
 			"selected": true,
 			"dragging": false
 		}
@@ -640,11 +682,30 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_whenNode-5b2e43df-03f5-4244-84ce-e76413c34c85_success"
+		},
+		{
+			"id": "whenNode-a3c33e15-066b-48bb-96cf-4045e97d43c3-callNode-68be76ca-fa7f-4d9f-a0f3-96682695347c",
+			"type": "default",
+			"source": "whenNode-a3c33e15-066b-48bb-96cf-4045e97d43c3",
+			"target": "callNode-68be76ca-fa7f-4d9f-a0f3-96682695347c",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "Condition met",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_whenNode-a3c33e15-066b-48bb-96cf-4045e97d43c3_success"
 		}
 	],
 	"viewport": {
-		"x": -308.85168412456846,
-		"y": -41.58885910495741,
+		"x": -465.85168412456846,
+		"y": -121.58885910495741,
 		"zoom": 0.5494271087884399
 	}
 }
