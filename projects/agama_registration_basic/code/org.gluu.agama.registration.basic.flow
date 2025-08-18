@@ -1,2 +1,5 @@
 Flow org.gluu.agama.registration.basic
      Basepath ""
+     Timeout 360 seconds
+// Create  variable for UI feedback
+uiFeedback = {}
