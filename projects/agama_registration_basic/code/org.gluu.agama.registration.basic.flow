@@ -7,3 +7,5 @@ uiFeedback = {}
 Repeat 6 times max
      // Retrieve user profile  from UI
      userInput = RRF "profile.ftlh" uiFeedback
+     // create an instance of Registration service
+     userRegistrationService = Call org.gluu.agama.user.UserRegistration getInstance 
