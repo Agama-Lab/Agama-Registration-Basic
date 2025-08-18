@@ -906,8 +906,46 @@
 				"width": 170,
 				"height": 122
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
+		},
+		{
+			"id": "assignmentNode-8e7798dc-f3da-4583-9494-671552e463a2",
+			"type": "assignmentNode",
+			"position": {
+				"x": 3226.783005068441,
+				"y": 889.0543792907164
+			},
+			"data": {
+				"id": "assignmentNode-8e7798dc-f3da-4583-9494-671552e463a2",
+				"type": "assignmentNode",
+				"position": {
+					"x": 3226.783005068441,
+					"y": 889.0543792907164
+				},
+				"previousNodeId": "logNode-a81bb98d-7b18-4e06-a998-52bfc8b3e7bb",
+				"agamaData": {
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "\"User already registered with this UserName\"",
+							"assignedVariableName": "uiFeedback.errorMessage"
+						}
+					],
+					"nodeIcon": "material-symbols:equal",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "User already registered with UID"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 122
+			},
+			"selected": true
 		}
 	],
 	"edges": [
@@ -1328,11 +1366,30 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_whenNode-85304a04-050e-473d-b52d-df7ed2e63944_otherwise"
+		},
+		{
+			"id": "logNode-a81bb98d-7b18-4e06-a998-52bfc8b3e7bb-assignmentNode-8e7798dc-f3da-4583-9494-671552e463a2",
+			"type": "default",
+			"source": "logNode-a81bb98d-7b18-4e06-a998-52bfc8b3e7bb",
+			"target": "assignmentNode-8e7798dc-f3da-4583-9494-671552e463a2",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_logNode-a81bb98d-7b18-4e06-a998-52bfc8b3e7bb"
 		}
 	],
 	"viewport": {
-		"x": -1295.5218931378788,
-		"y": -365.98140591153185,
-		"zoom": 0.580754365962861
+		"x": -1040.9283974664627,
+		"y": -285.56163671400327,
+		"zoom": 0.5
 	}
 }
