@@ -735,8 +735,42 @@
 				"width": 170,
 				"height": 122
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
+		},
+		{
+			"id": "rrfNode-b73649ba-b1e4-43d8-bcbf-b295cf7f9c96",
+			"type": "rrfNode",
+			"position": {
+				"x": 3584.137215862849,
+				"y": 1419.8045480158023
+			},
+			"data": {
+				"id": "rrfNode-b73649ba-b1e4-43d8-bcbf-b295cf7f9c96",
+				"type": "rrfNode",
+				"position": {
+					"x": 3584.137215862849,
+					"y": 1419.8045480158023
+				},
+				"previousNodeId": "logNode-a355eb64-6290-464d-899b-5273e33f4049",
+				"agamaData": {
+					"assignments": [],
+					"nodeIcon": "ph:globe-simple",
+					"templatePath": "acknowledgement.ftlh",
+					"asssignedVariableName": "acknowledgementInput",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "Show acknowledgement UI page for successful registration"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 122
+			},
+			"selected": true
 		}
 	],
 	"edges": [
@@ -1062,11 +1096,30 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_whenNode-1e8dd908-f446-45a2-a2f9-0af455ac150f_success"
+		},
+		{
+			"id": "logNode-a355eb64-6290-464d-899b-5273e33f4049-rrfNode-b73649ba-b1e4-43d8-bcbf-b295cf7f9c96",
+			"type": "default",
+			"source": "logNode-a355eb64-6290-464d-899b-5273e33f4049",
+			"target": "rrfNode-b73649ba-b1e4-43d8-bcbf-b295cf7f9c96",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_logNode-a355eb64-6290-464d-899b-5273e33f4049"
 		}
 	],
 	"viewport": {
-		"x": -1154.8516841245685,
-		"y": -533.5888591049575,
+		"x": -1306.8516841245685,
+		"y": -612.5888591049575,
 		"zoom": 0.5494271087884399
 	}
 }
