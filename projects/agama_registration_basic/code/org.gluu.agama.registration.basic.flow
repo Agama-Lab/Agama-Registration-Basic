@@ -15,3 +15,5 @@ Repeat 6 times max
      userPassword = userInput.userPassword
      // Check user name policy
      isUsernamePolicyMatch = Call userRegistrationService usernamePolicyMatch userName
+     // if username policy match
+     When isUsernamePolicyMatch is true
